@@ -81,7 +81,7 @@ The `Build` macro accepts [the `:name` option](#name) to change the name from `d
 
 ## Validate
 
-The `Contract::Validate` macro is responsible for validating the incoming params against its contract. That means you have to use `Contract::Build` beforehand, or create the contract yourself. The macro will then grab the params and throw then into the contract's `validate` (or `call`) method.
+The `Contract::Validate` macro is responsible for validating the incoming params against its contract. That means you have to use `Contract::Build` beforehand, or create the contract yourself. The macro will then grab the params and throw them into the contract's `validate` (or `call`) method.
 
 {{  "contract_test.rb:validate-only:../trailblazer/test/docs:2-0" | tsnippet }}
 

@@ -239,7 +239,7 @@ The operation's pipe doesn't only allow you to skip steps, but also to handle er
 
   Handling an eventual error in `how_are_you?` now becomes nothing more than adding a step on the left track, after the erroring one. This works with `failure`.
 
-  And keep in mind, there can be any number of steps on each track. You can even jump back and fourth.
+  And keep in mind, there can be any number of steps on each track. You can even jump back and forth.
 {% endrow %}
 
 {% callout %}

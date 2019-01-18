@@ -287,7 +287,7 @@ Trailblazer tries to abstract the Reform or dry-validation internals from you, s
 
 ## Persist
 
-When running our to-be-successful test case, whatsoever, it still breaks.
+When running our to-be-successful test case, however, it still breaks.
 
 {{ "spec/concepts/blog_post/operation/create_spec.rb:validation-fail:../trailblazer-guides/:operation-02" | tsnippet }}
 

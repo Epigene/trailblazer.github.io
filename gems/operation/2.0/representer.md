@@ -155,7 +155,7 @@ The only real difference to the above examples is that Reform will validate itse
 
 [→ Reform's architecture docs](/gems/reform) talk about this in detail.
 
-Reform infers this representer (or *deserializer*) automatically in `validate` and that is fine for most HTML forms where the contract schema and form layout are identical. In document APIs, whatsoever, the documents format often doesn't match 1-to-1 with the contract's schema. For example, when validating input in a JSON API system.
+Reform infers this representer (or *deserializer*) automatically in `validate` and that is fine for most HTML forms where the contract schema and form layout are identical. In document APIs, however, the documents format often doesn't match 1-to-1 with the contract's schema. For example, when validating input in a JSON API system.
 
 This is where you can specify your own representer to be used against the contract.
 

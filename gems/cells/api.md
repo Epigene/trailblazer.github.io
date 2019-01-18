@@ -228,7 +228,7 @@ cell = cell(CommentCell, comment)
 
 ## File Structure
 
-Having a cell to represent a fragment of your page is one thing. The real power, whatsoever, comes when rendering templates in cells. The `render` method does just that.
+Having a cell to represent a fragment of your page is one thing. The real power, however, comes when rendering templates in cells. The `render` method does just that.
 
 In a suffix environment, Cells expects the following file layout.
 

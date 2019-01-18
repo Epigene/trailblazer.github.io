@@ -197,7 +197,7 @@ Let's quickly discuss what happens here in what order. After this section, you w
 
 1. Invoking the cell in the layout via `Pro::Cell::Navigation.(nil, current_user: current_user).()` will instantiate the cell object and internally invoke the cell's default rendering method, named `show`. This method is automatically provided and simply renders the corresponding view.
 2. Since the cell class name is `Pro::Cell::Navigation`, this cell will render the view `concepts/pro/view/navigation.haml`. This is following the Trailblazer naming style.
-3. In the cell's view, two "helpers" are called: `signed_in?` and `avatar_url`. Whatsoever, the concept of a "helper" in Cells doesn't exist anymore. Any method or variable called in the view must be an *instance method* on the cell itself. This is why the cell class defines those two methods, and not some arbitrary helper module.
+3. In the cell's view, two "helpers" are called: `signed_in?` and `avatar_url`. However, the concept of a "helper" in Cells doesn't exist anymore. Any method or variable called in the view must be an *instance method* on the cell itself. This is why the cell class defines those two methods, and not some arbitrary helper module.
 4. Dependencies like the `current_user` have to get injected from the outer world when invoking the cell. Later, in the cell, those arguments can be accessed using the `options` cell method.
 
 It is important to understand that the cell has no access to global state. You as the cell author have to define the interface and the dependencies necessary to render the cell.

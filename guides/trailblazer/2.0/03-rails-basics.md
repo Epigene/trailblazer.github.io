@@ -103,7 +103,7 @@ The interesting part in the `Present` operation is the `:constant` option: it re
 
 {{ "app/concepts/blog_post/contract/create.rb:contract:../trailblazer-guides:operation-03" | tsnippet : "present" }}
 
-Contracts can be pure `dry-validation` schemas or Reform objects that can in turn use `dry-validation` or `ActiveModel::Validations` as their validation engine. Using a Reform object, whatsoever, will allow rendering that form in a view.
+Contracts can be pure `dry-validation` schemas or Reform objects that can in turn use `dry-validation` or `ActiveModel::Validations` as their validation engine. Using a Reform object, however, will allow rendering that form in a view.
 
 ## Contract Rendering
 
